@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Mark M. Span's Portfolio Pages
 
 You can use the [editor on GitHub](https://github.com/markspan/markspan.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
