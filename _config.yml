@@ -1,7 +1,7 @@
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 title: Mark M. Span's personal space.
 desciption: Psychyphysiology and Behaviour Measurement Portfolio.
-plugins: [jekyll-include-cache]
+#plugins: [jekyll-include-cache]
 
 # Welcome to Jekyll!
 #
