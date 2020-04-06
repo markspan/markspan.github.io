@@ -125,7 +125,7 @@ footer:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:m.m.span@rug.nl
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/in/markspan/
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
