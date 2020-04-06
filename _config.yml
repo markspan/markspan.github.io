@@ -121,6 +121,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:m.m.span@rug.nl
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
