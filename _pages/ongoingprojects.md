@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /ongoing-projects/
+permalink: /ongoingprojects/
 title: "Posts on my ongoing projects"
 author_profile: true
 header:
