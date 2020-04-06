@@ -1,4 +1,4 @@
-theme: jekyll-theme-tactile
+remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 title: welcome to Mark M. Span's personal space.
 desciption: Feel free to bookmark and keep an eye on my projects.
 plugins: [jekyll-include-cache]
