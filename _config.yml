@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Mark M. Span"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/mms4.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I have a PhD in Experimental Psychology"
   location         : "Groningen, the Netherlands"
   email            :
