@@ -1,5 +1,6 @@
 ---
 title: "About"
+permalink: /About/
 header:
   image: "/images/H3.jpg"
 ---
