@@ -109,7 +109,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Scholar"
-      icon: "fab fa-fw fa-address-book"
+      icon: "fab far fa-address-book"
       url: https://scholar.google.nl/citations?user=kGB7OMcAAAAJ&hl=en&oi=ao
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
