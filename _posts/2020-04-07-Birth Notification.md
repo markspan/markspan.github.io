@@ -16,7 +16,6 @@ The generic data object used for a study is the [EEGLAB](https://sccn.ucsd.edu/e
 Take a look at the "Transformations" directory to get the idea of how to add computations to the package.
 
 ```
-Matlab
 function [EEG, options] = SelectData(input,opts)
 %% Example Transformation simply calling EEGLAB function
 % Transformations should return the transformed data in the EEG structure,
