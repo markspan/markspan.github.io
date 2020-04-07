@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Introducing Alakazam"
+title: "Birth Notification for Alakazam"
 tags: eeg analysis matlab coding
 ---
 
