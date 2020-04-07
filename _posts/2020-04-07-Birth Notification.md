@@ -15,7 +15,7 @@ Timeseries plotting based on [plotECG](https://nl.mathworks.com/matlabcentral/fi
 The generic data object used for a study is the [EEGLAB](https://sccn.ucsd.edu/eeglab/index.php) "EEG" structure. Alakazam does put some extra info in this structure when it writes its own .mat files.
 Take a look at the "Transformations" directory to get the idea of how to add computations to the package.
 
-```
+``` matlab
 function [EEG, options] = SelectData(input,opts)
 %% Example Transformation simply calling EEGLAB function
 % Transformations should return the transformed data in the EEG structure,
