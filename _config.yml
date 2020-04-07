@@ -108,12 +108,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-  #  - label: "GitHub Pages"
-  #    icon: "fab fa-fw fa-github"
-  #    url: "https://markspan.github.io/"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-address-book"
+      url: https://scholar.google.nl/citations?user=kGB7OMcAAAAJ&hl=en&oi=ao
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/markspan"
@@ -127,9 +124,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/in/markspan/
-    - label: "Scholar"
-      icon: "fab fa-fw fa-address-book"
-      url: https://scholar.google.nl/citations?user=kGB7OMcAAAAJ&hl=en&oi=ao
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/markspan"
