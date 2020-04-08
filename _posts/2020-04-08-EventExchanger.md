@@ -1,3 +1,9 @@
+---
+layout: posts
+title: "Info on the Library for use with the 'EventExchanger'"
+tags: eeg analysis EventExchanger coding
+---
+
 # EventExchanger
 
 ## Disclaimer:
