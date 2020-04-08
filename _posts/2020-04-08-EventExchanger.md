@@ -7,8 +7,7 @@ tags: eeg analysis EventExchanger coding
 # EventExchanger
 
 Github link:
-
-https://github.com/markspan/EventExchanger
+[https://github.com/markspan/EventExchanger](https://github.com/markspan/EventExchanger)
 
 ## Disclaimer:
 
