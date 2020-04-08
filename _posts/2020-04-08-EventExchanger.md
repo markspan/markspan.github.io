@@ -6,6 +6,10 @@ tags: eeg analysis EventExchanger coding
 
 # EventExchanger
 
+Github link:
+
+https://github.com/markspan/EventExchanger
+
 ## Disclaimer:
 
 C-Sharp code to communicate with the hardware the University of Groningen,
