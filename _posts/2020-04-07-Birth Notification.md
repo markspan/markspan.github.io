@@ -4,6 +4,10 @@ title: "Birth Notification for Alakazam"
 tags: eeg analysis matlab coding
 ---
 
+Github link:
+[https://github.com/markspan/Alakazam](https://github.com/markspan/Alakazam)
+
+
 # A Modular EEG analysis software package in MATLAB
 
 ![Screenshot](/assets/ScreenShot.jpg)
