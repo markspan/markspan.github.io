@@ -29,5 +29,23 @@ and then, if this results in succes, close opensesame, and open it again, but no
 If all went well, the plugins are now availeable in your toolbox.
 
 
+*at the moment* there are four (4) plugins availeable. 
+
+- EVTXX item: send codes throught an "EventExchanger" to a fysiology recording, to sunchronise the behavioural data with the fysiologican data.
+- ResponseBox item: Alternative to the 'JoyStick' plugin. Made for the custom made buttonboxes of Research Support.
+- RGB_Led_Control item: Extended Responsebox iterm for use with the RGB Responsebox, enabeling easy color feedback on the buttonbox.
+- VAS item: a "Visual Analogue Scale". I tried to make it as customizeable as possible, so its upto the user to stay close to the original VAS, or design theitr own.
+
+
+## Usage of each item:
+
+### EVTXX
+
+### ResponseBox
+
+### RGB-Led-Control
+
+### VAS
+
 ## Thank you, come again!
 ```
