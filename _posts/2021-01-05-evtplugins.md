@@ -31,9 +31,9 @@ If all went well, the plugins are now availeable in your toolbox.
 
 *at the moment* there are four (4) plugins availeable. 
 
-- EVTXX item: send codes throught an "EventExchanger" to a fysiology recording, to sunchronise the behavioural data with the fysiologican data.
-- ResponseBox item: Alternative to the 'JoyStick' plugin. Made for the custom made buttonboxes of Research Support.
-- RGB_Led_Control item: Extended Responsebox iterm for use with the RGB Responsebox, enabeling easy color feedback on the buttonbox.
+- EVTXX item: send codes throught an "EventExchanger" to a fysiology recording, to synchronise the behavioural data with the fysiological data.
+- ResponseBox item: Alternative to the default 'JoyStick' plugin. Made for the custom made buttonboxes of Research Support.
+- RGB_Led_Control item: Extended Responsebox iterm for use with the RGB Responsebox, enabeling color use and feedback on the buttonbox.
 - VAS item: a "Visual Analogue Scale". I tried to make it as customizeable as possible, so its upto the user to stay close to the original VAS, or design theitr own.
 
 
