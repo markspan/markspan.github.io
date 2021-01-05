@@ -29,5 +29,5 @@ and then, if this results in succes, close opensesame, and open it again, but no
 If all went well, the plugins are now availeable in your toolbox.
 
 
-% Thank you, come again!
+## Thank you, come again!
 ```
