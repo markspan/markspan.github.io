@@ -43,6 +43,7 @@ If all went well, the plugins are now available in your toolbox.
 The purpose of this item/device is to send codes through an "EventExchanger" to a physiology recording, to synchronise the behavioural data with the physiological data.
 What we call an "EventExchanger", usually is an **EVT-2**, see picture below. This is an USB version of the **EVT-1**, which did/does the same, but was/is connected to a printer-port. 
 There is also an **EVT-3**. This is a larger version of the EVT-2, and is only used in the EEG cabins at the basement. The EVT-2 and EVT-3 are compatible, and only differ in extra (external) connections for the EVT-3.
+
 ![EVT-2](/images/EVT-2.jpg)
 
 The toolbox item for the EVTXX is to be used for either the EVT-2 and the EVT-3. When you place the item in your task, it will look for *attached* EVT devices. 
@@ -95,19 +96,26 @@ EE.PulseLines(255, 1000)
 ### ResponseBox
 There are multiple devices that work with this plugin. They mostly differ in number and position of the buttons that are attached, but they are also available as voice-keys, and most of them can even record the occurrence of an r-top.
 This is the generic form:
+
 ![RSP-12](/images/RSP-12.jpg)
+
 The devices are known to windows as joysticks, and can also be used with the generic joystick plugin.
 The configuration is also remarkably similar to the generic joystick plugin. The 'Responsebox' plugin is also compatible with the *Psycho* back-end.
+
 ![RSP-12 config](/images/RSP-config.png)
 
 ### RGB-Led-Control
 The RGB-Led control is a version of the response-box that has keys that have RGB LEDs inside. The keys are quite a bit larger then the default ResponseBox keys.
+
 ![RSP-RGB config](/images/RSP-RGB-config.png)
+
 The configuration is again similar to the ResponseBox configuration, but also has fields where the "current" colour of the keys can be defined.
 If needed, you can also define a colour the pressed key will get, either when it is the correct, or if its one of the incorrect options.
 
 ### VAS
+
 ![VAS](/images/VAS1.png)
+
 ![VAS config](/images/VAS-config.png)
 
 ---
