@@ -47,8 +47,9 @@ There is also an **EVT-3**. This is a larger version of the EVT-2, and is only u
 
 The toolbox item for the EVTXX is to be used for either the EVT-2 and the EVT-3. When you place the item in your task, it will look for *attached* EVT devices. 
 In the configurationpage of the item you can select the to-be-used EVT from a list. This enables the use of multiple EVT devices in the same task. During the develiopment of your task it is
-advised to select the "DUMMY", which is always availeble, and will output the codes straight to the debugwindow of OpenSesame. Be Aware: the list of devices is populated at startup, so connecting 
+advised to select the "DUMMY", which is always availeble, and will output the codes straight to the debugwindow of OpenSesame. **Be aware:** the list of devices is populated at startup, so connecting 
 the device after startup will not enable it. 
+
 ![EVT-2 config](/images/EVT-config.png)
 
 The item has two modes: *set output lines*, and *pulse output lines*. The first mode will place the codevalue on the output lines of the EVT untill changed, the second mode will
