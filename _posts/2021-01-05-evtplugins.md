@@ -11,7 +11,7 @@ Github link:
 
 ## Short Description:
 
-Python Wrapper to use hardware the University of Groningen in 0penSesame,
+Set of [OpenSesame](https://osdoc.cogsci.nl/) toolbox items to use hardware the University of Groningen in 0penSesame,
 faculty of Behavioural and Social Sciences, department of Research Support developed.
 
 Code Written by Eise Hoekstra and Mark M. Span, Maintained by Mark M. Span
