@@ -47,7 +47,7 @@ If all went well, the plugins are now availeable in your toolbox.
 
 ### VAS
 
-[info:](VAS1.png)
+![info:](VAS1.png)
 
 ## Thank you, come again!
 ```
