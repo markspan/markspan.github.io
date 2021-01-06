@@ -40,9 +40,9 @@ If all went well, the plugins are now availeable in your toolbox.
 ## Usage of each item:
 
 ### EVTXX
-![_](/images/EVT-2.png)
+![_](/images/EVT-2.jpg)
 ### ResponseBox
-![_](/images/RSP-12.png)
+![_](/images/RSP-12.jpg)
 ### RGB-Led-Control
 
 ### VAS
