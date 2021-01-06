@@ -19,7 +19,7 @@ Code Written by Eise Hoekstra and Mark M. Span, Maintained by Mark M. Span
 ## Usage:
 
 Start Opensesame *as Administrator*.
-Open the debug window of OpenSesame, and type:
+Open the console (ctrl-D) of OpenSesame, and type:
 
 ```
  pip install evtplugins
@@ -62,16 +62,17 @@ Normally, "0" means no code, no event, and the values between 1 and 255 can be u
 
 --- 
 
-
 #### Using in code:
 
-
+'Examples of how to use the EVT in Python inline code items'
 
 ## ResponseBox
-![_](/images/RSP-12.jpg)
+![RSP-12](/images/RSP-12.jpg)
+![RSP-12 config](/images/RSP-config.png)
 ### RGB-Led-Control
-
+![RSP-RGB config](/images/RSP-RGB-config.png)
 ### VAS
-![_](/images/VAS1.png)
+![VAS](/images/VAS1.png)
+![VAS config](/images/VAS-config.png)
 ## Thank you, come again!
 ```
