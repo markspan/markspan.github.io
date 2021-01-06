@@ -74,5 +74,5 @@ Normally, "0" means no code, no event, and the values between 1 and 255 can be u
 ### VAS
 ![VAS](/images/VAS1.png)
 ![VAS config](/images/VAS-config.png)
-## Thank you, come again!
-```
+
+---
