@@ -66,23 +66,30 @@ Normally, "0" means no code, no event, and the values between 1 and 255 can be u
 
 The easiest way to use the code is to use the underlying library 'pyEVT'. Somewhere in the start of your task create and select the device you want to use:
 
-` from pyEVT import EvtExchanger `
-` EE = EvtExchanger.Device() `
+```
+ from pyEVT import EvtExchanger 
+ EE = EvtExchanger.Device() 
+```
 
 Then, to select the device you need:
 
-` EE.Select("EVT") `
+``` 
+EE.Select("EVT") 
+```
+---
+*Using 'EVT' will select the USB device that has 'EVT' as part of the name. This will usually suffice, but if there are more devices that comply, you should use the serial number here to select ONE*
 
-* (Using "EVT" will select the USB device that has "EVT" as part of the name. This will usually suffice, but if there are more devices that comply, you shouls use the serial number here to select **ONE** *
+---
 
 and then set the channels to 0.
 
-` EE.SetLines(0) `
-
+``` 
+EE.SetLines(0) 
+```
 Further on in your task you can now use the *SetLines* and *PulseLines* functions when you need to inform the physiology about an event.
-
-` EE.PulseLines(255, 1000) `
-
+```
+EE.PulseLines(255, 1000) 
+```
  
 
 ## ResponseBox
