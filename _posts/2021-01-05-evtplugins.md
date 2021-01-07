@@ -106,7 +106,7 @@ The configuration is also remarkably similar to the generic joystick plugin. The
 ![RSP-12 config](/images/RSP-config.png)
 
 ### <a name="RGB_Led_Control">RGB_Led_Control</a>
-The RGB-Led control is a version of the response-box that has keys that have RGB LEDs inside. The keys are quite a bit larger then the default ResponseBox keys.
+The RGB-Led control is a version of the response-box that has keys that has RGB LEDs inside. The keys are quite a bit larger then the default ResponseBox keys.
 
 ![RSP-RGB config](/images/RSP-RGB-config.png)
 
@@ -114,9 +114,20 @@ The configuration is again similar to the ResponseBox configuration, but also ha
 If needed, you can also define a colour the pressed key will get, either when it is the correct, or if its one of the incorrect options.
 
 ### <a name="VAS">VAS</a>
+The item itself is a bit more complex then the previous items.The VAS item is designed to be used with the Rotary Encoder. It also has the option to be used with a standard mouse. 
+The item interacts with a standard [sketchpad](https://osdoc.cogsci.nl/3.3/manual/stimuli/visual/#using-the-sketchpad-and-feedback-items) item. In particular,
+the item refers to a canvas with some [named] (https://osdoc.cogsci.nl/3.3/manual/python/canvas/#naming-accessing-and-modifying-elements) elements on it. 
+The names of the elements can be entered in the configuration of the item.
 
 ![VAS](/images/VAS1.png)
 
+There are 3 names relevant for the VAS item: the name of the sketchpad to interact with, the name of the line element (on this sketchpad) on which the cursor moves, and the name of the cursor.
+optionally, there is the possibility to animate a timer (again, on the names sketchpad), counting down to the "end of response". If this element is used, it also must be named.
+
 ![VAS config](/images/VAS-config.png)
+
+There is also a configuration item "Start value". This value sets the starting point of the VAS cursor, when the rotary encoder is used. At the moment it is not functional (:(). Because of this, the item can now only be used with the mouse as input device.
+
+The relative complexity of the VAS item led to the inclusion of a bare-bones example of its use. This example can be found under Tools|Example experiments in OpenSesame.
 
 ---
