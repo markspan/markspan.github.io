@@ -122,12 +122,12 @@ The names of the elements can be entered in the configuration of the item.
 ![VAS](/images/VAS1.png)
 
 There are 3 names relevant for the VAS item: the name of the sketchpad to interact with, the name of the line element (on this sketchpad) on which the cursor moves, and the name of the cursor.
-optionally, there is the possibility to animate a timer (again, on the names sketchpad), counting down to the "end of response". If this element is used, it also must be named.
+Optionally, there is the possibility to animate a timer (again, on the names sketchpad), counting down to the "end of response". If this element is used, it also must be named.
 
 ![VAS config](/images/VAS-config.png)
 
 There is also a configuration item "Start value". This value sets the starting point of the VAS cursor, when the rotary encoder is used. At the moment it is not functional (:(). Because of this, the item can now only be used with the mouse as input device.
 
-The relative complexity of the VAS item led to the inclusion of a bare-bones example of its use. This example can be found under Tools|Example experiments in OpenSesame.
+The relative complexity of the VAS item led to the inclusion of a bare-bones example of its use. This example can be found under Tools | Example experiments in OpenSesame.
 
 ---
