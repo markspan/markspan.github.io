@@ -31,15 +31,15 @@ If all went well, the plugins are now available in your toolbox.
 
 *at the moment* there are four (4) plugins available. 
 
-- EVTXX item: send codes through an "EventExchanger" to a physiology recording, to synchronise the behavioural data with the physiological data.
-- ResponseBox item: Alternative to the default 'JoyStick' plugin. Made for the custom made buttonboxes of Research Support.
-- RGB_Led_Control item: Extended Responsebox item for use with the RGB Responsebox, enabling colour use and feedback on the buttonbox.
-- VAS item: a "Visual Analogue Scale". I tried to make it as customizable as possible, so its up to the user to stay close to the original VAS, or design their own.
+- [EVTXX](#EVTXX) item: send codes through an "EventExchanger" to a physiology recording, to synchronise the behavioural data with the physiological data.
+- [ResponseBox](#ResponseBox) item: Alternative to the default 'JoyStick' plugin. Made for the custom made buttonboxes of Research Support.
+- [RGB_Led_Control](#RGB_Led_Control) item: Extended Responsebox item for use with the RGB Responsebox, enabling colour use and feedback on the buttonbox.
+- [VAS](#VAS) item: a "Visual Analogue Scale". I tried to make it as customizable as possible, so its up to the user to stay close to the original VAS, or design their own.
 
 
 ## Usage of each item:
 
-### EVTXX
+### <a name="EVTXX">EVTXX</a>
 The purpose of this item/device is to send codes through an "EventExchanger" to a physiology recording, to synchronise the behavioural data with the physiological data.
 What we call an "EventExchanger", usually is an **EVT-2**, see picture below. This is an USB version of the **EVT-1**, which did/does the same, but was/is connected to a printer-port. 
 There is also an **EVT-3**. This is a larger version of the EVT-2, and is only used in the EEG cabins at the basement. The EVT-2 and EVT-3 are compatible, and only differ in extra (external) connections for the EVT-3.
@@ -93,7 +93,8 @@ EE.PulseLines(255, 1000)
 ```
  
 
-### ResponseBox
+### <a name="ResponseBox">ResponseBox</a>
+
 There are multiple devices that work with this plugin. They mostly differ in number and position of the buttons that are attached, but they are also available as voice-keys, and most of them can even record the occurrence of an r-top.
 This is the generic form:
 
@@ -104,7 +105,7 @@ The configuration is also remarkably similar to the generic joystick plugin. The
 
 ![RSP-12 config](/images/RSP-config.png)
 
-### RGB-Led-Control
+### <a name="RGB_Led_Control">RGB_Led_Control</a>
 The RGB-Led control is a version of the response-box that has keys that have RGB LEDs inside. The keys are quite a bit larger then the default ResponseBox keys.
 
 ![RSP-RGB config](/images/RSP-RGB-config.png)
@@ -112,7 +113,7 @@ The RGB-Led control is a version of the response-box that has keys that have RGB
 The configuration is again similar to the ResponseBox configuration, but also has fields where the "current" colour of the keys can be defined.
 If needed, you can also define a colour the pressed key will get, either when it is the correct, or if its one of the incorrect options.
 
-### VAS
+### <a name="VAS">VAS</a>
 
 ![VAS](/images/VAS1.png)
 
