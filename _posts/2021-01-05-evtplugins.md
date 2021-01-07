@@ -116,7 +116,7 @@ If needed, you can also define a colour the pressed key will get, either when it
 ### <a name="VAS">VAS</a>
 The item itself is a bit more complex then the previous items.The VAS item is designed to be used with the Rotary Encoder. It also has the option to be used with a standard mouse. 
 The item interacts with a standard [sketchpad](https://osdoc.cogsci.nl/3.3/manual/stimuli/visual/#using-the-sketchpad-and-feedback-items) item. In particular,
-the item refers to a canvas with some [named] (https://osdoc.cogsci.nl/3.3/manual/python/canvas/#naming-accessing-and-modifying-elements) elements on it. 
+the item refers to a canvas with some [named](https://osdoc.cogsci.nl/3.3/manual/python/canvas/#naming-accessing-and-modifying-elements) elements on it. 
 The names of the elements can be entered in the configuration of the item.
 
 ![VAS](/images/VAS1.png)
