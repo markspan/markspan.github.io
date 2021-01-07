@@ -4,7 +4,7 @@ title: "VideoCapture"
 tags: labstreaminglayer video synchronisation coding
 ---
 
-Here I will be introducing [VideoCapture](https://github.com/markspan/VideoCapture/blob/master/README.md)
+[VideoCapture](https://github.com/markspan/VideoCapture/blob/master/README.md)
 
 Program to retrieve a video stream from a OpenCV compatible webcam and save it to a file in MJPEG format. Simultaneously creating an [labstreaminglayer](https://github.com/sccn/labstreaminglayer) Marker stream to create timestamps for each retrieved frame.
 
