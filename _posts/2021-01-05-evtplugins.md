@@ -22,7 +22,7 @@ Start OpenSesame *as Administrator*.
 Open the console (ctrl-D) of OpenSesame, and type:
 
 ```
- pip install evtplugins
+ !pip install evtplugins
 ```
 and then, if this results in success, close OpenSesame, and open it again, but now no need for administrators rights any more.
 
