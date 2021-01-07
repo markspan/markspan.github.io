@@ -128,6 +128,6 @@ Optionally, there is the possibility to animate a timer (again, on the names ske
 
 There is also a configuration item "Start value". This value sets the starting point of the VAS cursor, when the rotary encoder is used. At the moment it is not functional (:(). Because of this, the item can now only be used with the mouse as input device.
 
-The relative complexity of the VAS item led to the inclusion of a bare-bones example of its use. This example can be found under Tools | Example experiments in OpenSesame.
+The relative complexity of the VAS item led to the inclusion of a bare-bones example of its use. This example can be found under Tools - Example experiments in OpenSesame.
 
 ---
