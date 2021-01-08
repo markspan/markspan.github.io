@@ -59,7 +59,7 @@ do so for a number of milliseconds, and then change back to zero. Because the de
 Normally, "0" means no code, no event, and the values between 1 and 255 can be used to code your stimuli. 
 
 ---
-*In the "Pulse Output Lines" mode, OpenSesame will **not** pause until the code is reset. Be careful not to send codes when the EVT is still "pulsing", as the identification of the stimuli will be affected. We also had reports of the EVTs "getting confused" and pulsing codes that were not defined after possibly overlapping pulses. We therefore advice pulsing for approximately 4 times the time between two samples on the amplifier. No code will the be "missed" and the chance of overlapping pulses is nil.*
+*In the "Pulse Output Lines" mode, OpenSesame will **not** pause until the code is reset (non-blocking!). Be careful not to send codes when the EVT is still "pulsing", as the code that will be recorded can be affected. We  have had reports of the EVTs "getting confused" and sent erroneous codes after possibly overlapping pulses. We therefore advice pulsing with short latencies, for about 4 times the time between two samples on the amplifier. No code will the be "missed" and the chance of overlapping pulses is nil.*
 
 --- 
 
