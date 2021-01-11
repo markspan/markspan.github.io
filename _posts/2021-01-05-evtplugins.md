@@ -28,6 +28,7 @@ and then, if this results in success, close OpenSesame, and open it again, but n
 
 If all went well, the plugins are now available in your toolbox.
 
+![EVTPLUGINS](/images/evtplugins.png)
 
 *at the moment* there are four (4) plugins available. 
 
@@ -35,8 +36,6 @@ If all went well, the plugins are now available in your toolbox.
 - [ResponseBox](#ResponseBox) item: Alternative to the default 'JoyStick' plugin. Made for the custom made buttonboxes of Research Support.
 - [RGB_Led_Control](#RGB_Led_Control) item: Extended Responsebox item for use with the RGB Responsebox, enabling colour use and feedback on the buttonbox.
 - [VAS](#VAS) item: a "Visual Analogue Scale". I tried to make it as customizable as possible, so its up to the user to stay close to the original VAS, or design their own.
-
-![EVTPLUGINS](/images/evtplugins.png)
 
 ## Usage of each item:
 
