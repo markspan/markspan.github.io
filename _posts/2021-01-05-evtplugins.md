@@ -36,6 +36,7 @@ If all went well, the plugins are now available in your toolbox.
 - [RGB_Led_Control](#RGB_Led_Control) item: Extended Responsebox item for use with the RGB Responsebox, enabling colour use and feedback on the buttonbox.
 - [VAS](#VAS) item: a "Visual Analogue Scale". I tried to make it as customizable as possible, so its up to the user to stay close to the original VAS, or design their own.
 
+![EVTPLUGINS](/images/evtplugins.png)
 
 ## Usage of each item:
 
