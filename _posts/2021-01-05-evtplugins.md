@@ -100,6 +100,12 @@ This is the generic form:
 
 ![RSP-12](/images/RSP-12.jpg)
 
+But there are many variations, with touch-buttons, different layouts etc. The can also be made bespoke.
+There is also a footpedal-form:
+
+![RSP-12-f](/images/RSP-12-F.jpg)
+
+
 The devices are known to windows as joysticks, and can also be used with the generic joystick plugin.
 The configuration is also remarkably similar to the generic joystick plugin. The 'Responsebox' plugin is also compatible with the *Psycho* back-end.
 
