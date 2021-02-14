@@ -18,13 +18,13 @@ Code Written by Eise Hoekstra and Mark M. Span, Maintained by Mark M. Span
 
 ## Usage:
 
-Start OpenSesame *as Administrator*.
+Start OpenSesame 
 Open the console (ctrl-D) of OpenSesame, and type:
 
 ```
- !pip install evtplugins
+ !pip install evtplugins --user
 ```
-and then, if this results in success, close OpenSesame, and open it again, but now no need for administrators rights any more.
+and then, if this results in success, close OpenSesame, and open it again.
 
 If all went well, the plugins are now available in your toolbox.
 
@@ -131,8 +131,6 @@ There are 3 names relevant for the VAS item: the name of the sketchpad to intera
 Optionally, there is the possibility to animate a timer (again, on the named sketchpad), counting down to the "end of response". If this element is used, it also must be named.
 
 ![VAS config](/images/VAS-config.png)
-
-There is also a configuration item "Start value". This value sets the starting point of the VAS cursor, when the rotary encoder is used. At the moment it is not functional (:(). Because of this, the item can now only be used with the mouse as input device.
 
 The relative complexity of the VAS item led to the inclusion of a bare-bones example of its use. This example can be found under Tools - Example experiments in OpenSesame.
 
