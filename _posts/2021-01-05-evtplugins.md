@@ -69,27 +69,26 @@ The easiest way to use the code is to use the underlying library 'pyEVT'. Somewh
 
 ```
  from pyEVT import EvtExchanger 
- EE = EvtExchanger.Device() 
 ```
 
 Then, to select the device you need:
 
 ``` 
-EE.Select("EVT") 
+EvtExchanger.Select("EVT") 
 ```
 ---
 *Using 'EVT' will select the USB device that has 'EVT' as part of the name. This will usually suffice, but if there are more devices that comply, you should use the serial number here to select ONE*
-
+*Using no, or empty strings will look for devices with "EventExchanger" in the name.
 ---
 
 and then set the channels to 0.
 
 ``` 
-EE.SetLines(0) 
+EvtExchanger.SetLines(0) 
 ```
 Further on in your task you can now use the *SetLines* and *PulseLines* functions when you need to inform the physiology about an event.
 ```
-EE.PulseLines(255, 1000) 
+EvtExchanger.PulseLines(255, 1000) 
 ```
  
 
