@@ -131,7 +131,11 @@ The names of the elements can be entered in the configuration of the item.
 
 ![VAS](/images/VAS1.png)
 
-There are 3 names relevant for the VAS item: the name of the sketchpad to interact with, the name of the line element (on this sketchpad) on which the cursor moves, and the name of the cursor.
+There are 3 names relevant for the VAS item: 
+ - the name of the sketchpad to interact with, 
+ - the name of the line element (on this sketchpad) on which the cursor moves, 
+ - and the name of the cursor.
+ 
 Optionally, there is the possibility to animate a timer (again, on the named sketchpad), counting down to the "end of response". If this element is used, it also must be named.
 
 ![VAS config](/images/VAS-config.png)
