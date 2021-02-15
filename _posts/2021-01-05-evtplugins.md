@@ -11,8 +11,8 @@ GitHub link:
 
 ## Short Description:
 
-Set of [OpenSesame](https://osdoc.cogsci.nl/) toolbox items to use hardware the University of Groningen in 0penSesame,
-faculty of Behavioural and Social Sciences, department of Research Support developed.
+Set of [OpenSesame](https://osdoc.cogsci.nl/) toolbox items to use hardware developed by the University of Groningen,
+faculty of Behavioural and Social Sciences, department of Research Support, in OpenSesame.
 
 Code Written by Eise Hoekstra and Mark M. Span, Maintained by Mark M. Span
 
@@ -32,8 +32,8 @@ If all went well, the plugins are now available in your toolbox.
 
 *at the moment* there are four (4) plugins available. 
 
-- [EVTXX](#EVTXX) item: send codes through an "EventExchanger" to a physiology recording, to synchronise the behavioural data with the physiological data.
-- [ResponseBox](#ResponseBox) item: Alternative to the default 'JoyStick' plugin. Made for the custom made buttonboxes of Research Support.
+- [EVTXX](#EVTXX) item: send codes through an "EventExchanger" to a physiology recording device, to synchronise the behavioural data with the physiological data.
+- [ResponseBox](#ResponseBox) item: Alternative to the default 'JoyStick' plugin. Made for the custom made buttonboxes of Research Support (works / can be made to work with all HID devices).
 - [RGB_Led_Control](#RGB_Led_Control) item: Extended Responsebox item for use with the RGB Responsebox, enabling colour use and feedback on the buttonbox.
 - [VAS](#VAS) item: a "Visual Analogue Scale". I tried to make it as customizable as possible, so its up to the user to stay close to the original VAS, or design their own.
 
@@ -54,7 +54,7 @@ the device after startup will not enable it.
 ![EVT-2 config](/images/EVT-config.png)
 
 The item has two modes: *set output lines*, and *pulse output lines*. The first mode will place the code value on the output lines of the EVT until changed, the second mode will
-do so for a number of milliseconds, and then change back to zero. Because the devices have eight outputlines, the code you can convey through these devices can vary between 0 and 255.
+do so for a number of milliseconds, and then change back to zero. Because the devices have eight outputlines, the code you can convey through these devices can vary between 1 and 255.
 
 Normally, "0" means no code, no event, and the values between 1 and 255 can be used to code your stimuli. 
 
@@ -65,7 +65,7 @@ Normally, "0" means no code, no event, and the values between 1 and 255 can be u
 
 #### Using in code:
 
-The easiest way to use the code is to use the underlying library 'pyEVT'. Somewhere in the start of your task create and select the device you want to use:
+The easiest way to use the code is to use the underlying library 'pyEVT' ![GitHub Link](https://github.com/markspan/pyEVT). Somewhere in the start of your task create and select the device you want to use:
 
 ```
  from pyEVT import EvtExchanger 
@@ -77,11 +77,11 @@ Then, to select the device you need:
 EvtExchanger.Select("EVT") 
 ```
 ---
-*Using 'EVT' will select the USB device that has 'EVT' as part of the name. This will usually suffice, but if there are more devices that comply, you should use the serial number here to select ONE*
+*The Parameter used (Here 'EVT') will select the USB device that has 'EVT' as part of the name. This will usually suffice, but if there are more devices that comply, you should use the serial number here to select ONE*
 *Using no, or empty strings will look for devices with "EventExchanger" in the name.
 ---
 
-and then set the channels to 0.
+and then optionally set the channels to 0.
 
 ``` 
 EvtExchanger.SetLines(0) 
@@ -90,7 +90,7 @@ Further on in your task you can now use the *SetLines* and *PulseLines* function
 ```
 EvtExchanger.PulseLines(255, 1000) 
 ```
- 
+*If you use multiple devices that use the EvtExchanger API, you need to select the device to be used before you call functions on it: this includes the use of Buttonboxes and EventExchangers. When you use the plugin ("dragged and dropped) this is taken care of in the plugin.*
 
 ### <a name="ResponseBox">ResponseBox</a>
 
@@ -109,6 +109,29 @@ The devices are known to windows as joysticks, and can also be used with the gen
 The configuration is also remarkably similar to the generic joystick plugin. The 'Responsebox' plugin is also compatible with the *Psycho* back-end.
 
 ![RSP-12 config](/images/RSP-config.png)
+
+#### Using in code:
+The easiest way to use the code is to use the underlying library 'pyEVT' ![GitHub Link](https://github.com/markspan/pyEVT). Somewhere in the start of your task create and select the device you want to use:
+
+```
+ from pyEVT import EvtExchanger 
+```
+
+Then, to select the device you need:
+
+``` 
+EvtExchanger.Select("RSP") 
+```
+
+Now you can wait for a response using the command:
+
+``` 
+WaitForDigEvents(AllowedEventLines, responseTimeout))
+```
+
+Where *AllowedEventLines* is the bitpattern containing the buttons that should generate a response, and *responseTimeout* the timeout value in ms.
+
+*If you use multiple devices that use the EvtExchanger API, you need to select the device to be used before you call functions on it: this includes the use of Buttonboxes and EventExchangers. When you use the plugin ("dragged and dropped) this is taken care of in the plugin.*
 
 ### <a name="RGB_Led_Control">RGB_Led_Control</a>
 The RGB-Led control is a version of the response-box that has keys that has RGB LEDs inside. The keys are quite a bit larger then the default ResponseBox keys.
