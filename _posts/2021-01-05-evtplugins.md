@@ -78,7 +78,7 @@ EvtExchanger.Select("EVT")
 ```
 ---
 *The Parameter used (Here 'EVT') will select the USB device that has 'EVT' as part of the name. This will usually suffice, but if there are more devices that comply, you should use the serial number here to select ONE*
-*Using no, or empty strings will look for devices with "EventExchanger" in the name.
+*Using no, or empty strings will look for devices with "EventExchanger" in the name.*
 ---
 
 and then optionally set the channels to 0.
