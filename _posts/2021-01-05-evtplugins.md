@@ -126,7 +126,7 @@ EvtExchanger.Select("RSP")
 Now you can wait for a response using the command:
 
 ``` 
-WaitForDigEvents(AllowedEventLines, responseTimeout))
+EvtExchanger.WaitForDigEvents(AllowedEventLines, responseTimeout))
 ```
 
 Where *AllowedEventLines* is the bitpattern containing the buttons that should generate a response, and *responseTimeout* the timeout value in ms.
