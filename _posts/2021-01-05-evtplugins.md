@@ -65,7 +65,7 @@ Normally, "0" means no code, no event, and the values between 1 and 255 can be u
 
 #### Using in code:
 
-The easiest way to use the code is to use the underlying library 'pyEVT' ![GitHub Link](https://github.com/markspan/pyEVT). Somewhere in the start of your task create and select the device you want to use:
+The easiest way to use the code is to use the underlying library 'pyEVT' ![GitHub Link](https://github.com/markspan/pyEVT) . Somewhere in the start of your task create and select the device you want to use:
 
 ```
  from pyEVT import EvtExchanger 
