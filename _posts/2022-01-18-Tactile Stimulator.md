@@ -63,6 +63,7 @@ Dragging a second "shock" plugin to the task, will enable the administering of s
 Main thing to note here is (next to the selection of the actual device: "Productname") is the activation of the 'Percentage' field. This field can be filled with a number between 0 and 100, and is used as a index, leading to a shock to be administered to the subject, with a current that is defined as a percentage of the calibration value.
 
 So if the calibration led to the selection of a value of 2.5mAh (50%), setting the "Percentage" field to e.g., 30% will lead to a shock with a current of 30% *of the calibration value of 2.5mAh*!
+
 ---
 *The plugin will not allow fast repetitions of the shocks, as they usually are not what the researcher wants (or at least should want). The default minimum ISI (inter-shock-interval) is 1 second.*
 ---
