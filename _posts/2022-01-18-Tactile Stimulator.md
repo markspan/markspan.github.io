@@ -35,14 +35,11 @@ If all went well, the plugins are now available in your toolbox.
 The tactile stimulator is a device that can be used to administer unpleasant tactile feedback to a subject. 
 
 ![LooksLike](/images/tactilestimulator.jpg)
-
----
+--- 
 *This maximum value of the applied current is 5 mA, which is reached
  when a byte with value 255 (being 100%) is sent to the Tactile Stimulator. 
- When a 0 is sent, the current will be 0 mA. This value can (and should) be limited by a careful calibration procedure!
-*
----
-
+ When a 0 is sent, the current will be 0 mA. This value can (and should) be limited by a careful calibration procedure!*
+--- 
 When using the Tactile Stimulator the first thing to do is to run a calibration. This will limit the current send to the subject to a maximum, that is being calibrated to the subjective experience of the subject.
 
 You do so by dragging the plugin into you experiment. The configuration pane looks like this:
@@ -66,8 +63,6 @@ Dragging a second "shock" plugin to the task, will enable the administering of s
 Main thing to note here is (next to the selection of the actual device: "Productname") is the activation of the 'Percentage' field. This field can be filled with a number between 0 and 100, and is used as a index, leading to a shock to be administered to the subject, with a current that is defined as a percentage of the calibration value.
 
 So if the calibration led to the selection of a value of 2.5mAh (50%), setting the "Percentage" field to e.g., 30% will lead to a shock with a current of 30% *of the calibration value of 2.5mAh*!
-
 ---
 *The plugin will not allow fast repetitions of the shocks, as they usually are not what the researcher wants (or at least should want). The default minimum ISI (inter-shock-interval) is 1 second.*
 ---
-
