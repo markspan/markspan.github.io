@@ -135,8 +135,6 @@ RSP.WaitForDigEvents(AllowedEventLines, responseTimeout)
 
 Where *AllowedEventLines* is the bitpattern containing the buttons that should generate a response, and *responseTimeout* the timeout value in ms.
 
-*If you use multiple devices that use the EvtExchanger API, you need to select the device to be used before you call functions on it: this includes the use of Buttonboxes and EventExchangers. When you use the plugin ("dragged and dropped) this is taken care of in the plugin.*
-
 ### <a name="RGB_Led_Control">RGB_Led_Control</a>
 The RGB-Led control is a version of the response-box that has keys that has RGB LEDs inside. The keys are quite a bit larger then the default ResponseBox keys.
 
