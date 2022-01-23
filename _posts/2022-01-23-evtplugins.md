@@ -40,7 +40,7 @@ If all went well, the plugins are now available in your toolbox.
 
 ![EVTPLUGINS](/images/evtpluginsplus.png)
 
-*at the moment* there are four (5) plugins available. 
+*at the moment* there are five (5) plugins available. 
 
 - [EVTXX](#EVTXX) item: send codes through an "EventExchanger" to a physiology recording device, to synchronise the behavioural data with the physiological data.
 - [ResponseBox](#ResponseBox) item: Alternative to the default 'JoyStick' plugin. Made for the custom made buttonboxes of Research Support (works / can be made to work with all HID devices).
