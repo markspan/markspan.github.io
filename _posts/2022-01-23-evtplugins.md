@@ -206,6 +206,6 @@ Main thing to note here is (next to the selection of the actual device: "Product
 So if the calibration led to the selection of a value of 2.5mAh (50%), setting the "Percentage" field to e.g., 30% will lead to a shock with a current of 30% *of the calibration value of 2.5mAh*!
 
 ***
-*The plugin will not allow fast repetitions of the shocks, as they usually are not what the researcher wants (or at least should want). The default minimum ISI (inter-shock-interval) is 1 second.*
+*The plugin will not allow fast repetitions of the shocks, as they usually are not what the researcher wants (or at least should want). The default minimum ISI (inter-shock-interval) is 1 second. The duration is normally 150ms. This cannot be changed through the interface, as it is meant to be constant. The value #is# visible, and will be logged in a logger item*
 
 ***
