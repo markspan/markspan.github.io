@@ -32,8 +32,9 @@ or, if you cannot obtain root priveleges:
 and then, if this results in success, close OpenSesame, and open it again.
 
 If all went well, the plugins are now available in your toolbox. 
+
 ---
-*They will be useable either when installed as Admin, or as user, as long as a user can connect to the USB port (this could be more difficult when running Linux)*
+*They will be useable either when installed as Admin, or as user, as long as a user can connect to the USB port (this could be more difficult when running Linux)
 ---
 
 ![EVTPLUGINS](/images/evtpluginsplus.png)
