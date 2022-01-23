@@ -34,7 +34,7 @@ and then, if this results in success, close OpenSesame, and open it again.
 If all went well, the plugins are now available in your toolbox. 
 
 ---
-* They will be useable either when installed as Admin, or as user, as long as a user can connect to the USB port (this could be more difficult when running Linux *)
+*They will be useable either when installed as Admin, or as user, as long as a user can connect to the USB port (this could be more difficult when running Linux)*
 ---
 
 ![EVTPLUGINS](/images/evtpluginsplus.png)
@@ -84,7 +84,7 @@ The easiest way to use the code is to use the underlying library 'pyEVT' [GitHub
 ```
 
 ---
-*The Parameter used (Here 'EVT') will select the USB device that has 'EVT' as part of the name. This will usually suffice, but if there are more devices that comply, you should use the serial number here to select ONE*
+*The Parameter used (Here 'EVT') will select the USB device that has 'EVT' as part of the name. This will usually suffice, but if there are more devices that comply, you should use the serial number here to select ONE*.
 *Using no, or empty strings will look for devices with "EventExchanger" in the name.*
 ---
 
