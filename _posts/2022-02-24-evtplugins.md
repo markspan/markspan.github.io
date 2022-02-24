@@ -32,7 +32,7 @@ or, if you cannot obtain root privileges:
 and then, if this results in success, close OpenSesame, and open it again.
 
 ---
-*when installing on a MAC (**or another platform that has no pip executable available in the terminal**) you shouls use:*
+*when installing on a MAC (**or another platform that has no pip executable available in the terminal**) you should use:*
 
 ```
 import pip
