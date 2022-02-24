@@ -53,7 +53,7 @@ If all went well, the plugins are now available in your toolbox.
 - [EVTXX](#EVTXX) item: send codes through an "EventExchanger" to a physiology recording device, to synchronise the behavioural data with the physiological data.
 - [ResponseBox](#ResponseBox) item: Alternative to the default 'JoyStick' plugin. Made for the custom made buttonboxes of Research Support (works / can be made to work with all HID devices).
 - [RGB_Led_Control](#RGB_Led_Control) item: Extended Responsebox item for use with the RGB Responsebox, enabling colour use and feedback on the buttonbox.
-- [VAS](#VAS) item: a "Visual Analogue Scale". I tried to make it as customizable as possible, so its up to the user to stay close to the original VAS, or design their own.
+- [VAS](#VAS) item: a "Visual Analogue Scale". I tried to make it as customizable as possible, so its up to the user to stay close to the original VAS, or design their own. 
 - [SHOCKER](#Shocker) Officially: *Tactile Stimulator* The tactile stimulator is a device that can be used to administer unpleasant tactile feedback to a subject.
 
 ## Usage of each item:
@@ -173,6 +173,9 @@ Optionally, there is the possibility to animate a timer (again, on the named ske
 ![VAS config](/images/VAS-config.png)
 
 The relative complexity of the VAS item led to the inclusion of a bare-bones example of its use. This example can be found under Tools - Example experiments in OpenSesame.
+
+There is also a **VAS2** item in the toolbox: this is a customized version, that has no coupling with any encoders and can only be used in combination with the mouse. The customizable parameters are therefore different. The main features are: the use of a GUI button to end the selection: that is, a rectangle on the canvas that is named in the parameters: when clicked after a selection, it will end the VAS2. (Optional) labels that can be clicked to the maximum and minimum values of the VAS, and the **appearance** of the cursor after the VASBODY is clicked.  
+
 
 ### <a name="Shocker">Shocker</a>
 ## Tactile Stimulator.
