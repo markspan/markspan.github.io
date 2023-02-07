@@ -6,4 +6,4 @@ tags: EEG GMW Training
 
 click on :
 
-https://link.gmw.rug.nl/labintro/
+[https://link.gmw.rug.nl/labintro/](https://link.gmw.rug.nl/labintro/)
