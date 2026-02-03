@@ -1,7 +1,7 @@
 # ASA electrode file
 ReferenceLabel	avg
 UnitPosition	mm
-NumberPositions=	64
+NumberPositions=	65
 Positions
 87.8245	-0.0000	13.6565
 76.9711	-0.0000	47.3542
@@ -67,6 +67,7 @@ Positions
 -60.2154	-84.4588	-17.8386
 -49.8487	88.0386	25.6631
 -49.8487	-88.0386	25.6631
+110.0000	37.0000	-10.0000
 Labels
 0Z
 1Z
@@ -132,3 +133,4 @@ Labels
 4RC
 4LB
 4RB
+EOG
